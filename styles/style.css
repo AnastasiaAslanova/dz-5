@@ -1,0 +1,145 @@
+* {
+  font-family: Arial, sans-serif;
+  max-width: 945px;
+  margin: 0 auto;
+}
+/*Header*/
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 23px 20px 27px;
+}
+ul {
+  text-align: center;
+}
+.header-menu a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  color: #828282;
+  text-shadow: 6px 4px 5px rgba(0,0,0,0.59);
+}
+.header-menu a:hover{
+  color: #070707;
+}
+header {
+  outline: none;
+  border-bottom: solid 1px #828282;
+}
+/*section first screen*/
+.first-screen img{
+  width: 100%;
+}
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #070707;
+  margin: 33px 0 38px;
+}
+/*section About me*/
+.about-me {
+  background-color: #F6F6F6;
+  padding: 100px 0 73px;
+}
+h2, .about-me p {
+  max-width: 533px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  color: #070707;
+}
+h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #070707;
+}
+
+.about-me p{
+  padding: 28px 0;
+  text-align: match-parent;
+}
+
+/*Section skills*/
+.skills {
+  padding: 100px 0 200px;
+}
+.skills p {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+  padding: 32px 0 62px;
+  margin: 0;
+}
+.work-program p {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding: 23px 0 60px;
+  color: #828282;
+}
+/*Portfolio*/
+.portfolio h2 {
+  padding-bottom: 68px;
+}
+.portfolio p {
+  padding: 15px 0 122px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: #070707;
+}
+/*Contacts*/
+.contacts {
+  padding: 80px 0 44px;
+  display: flex;
+  flex-direction: column;
+}
+.contacts h3 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  padding-bottom: 18px;
+  color: #070707;
+}
+.contacts p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding-bottom: 85px;
+  color: #070707;
+}
+.btn {
+  width: 180px;
+  height: 42px;
+  background-color: #070707;
+  border-radius: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-left: auto;
+}
+.svg {
+  padding-top: 8px;
+ }
+.svg ul {
+  padding: 0;
+}
+/*Footer*/
+footer{
+  padding: 44px 0 159px;
+}
+footer p {
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #828282;
+}
